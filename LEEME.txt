@@ -26,3 +26,6 @@ V1.4.2: guía de voz alineada al borde inferior de las palabras, anticipación d
 V1.5 CONTROL REMOTO
 Ejecutar remote.sql una sola vez en SQL Editor de Supabase. Subir los seis archivos web, no el SQL.
 En el receptor abrir guion > Control remoto > Generar código. En el mando, biblioteca > Control remoto > introducir código. Misma cuenta y ambos conectados. Códigos duran dos horas; desconectar al terminar. El receptor debe permanecer visible. El modo voz se inicia localmente por permisos de micrófono; puede pausarse a distancia. Cambiar bloque o línea pausa el modo voz; volver a iniciarlo localmente. La vista limpia remota puede no activar fullscreen nativo. Latencia depende de conexión y sondeo (cada 900 ms). El mando no envía audio ni texto del guion. No se modifican las tablas de biblioteca.
+
+
+1.5.1: modo voz: iniciar localmente, pausar y reanudar remotamente mientras el reconocimiento siga activo. La pausa remota conserva el microfono activo; apagarlo en el receptor o cerrar el lector. Si el navegador termina el reconocimiento, iniciar localmente de nuevo. No requiere SQL nuevo.

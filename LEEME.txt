@@ -22,3 +22,7 @@ Validación: sintaxis JS y empaquetado comprobados; falta ejecutar SQL y probar 
 V1.4: modo voz beta, en Ajustes o botón Modo voz. Permite el micrófono; idioma es-CO por defecto. No utiliza cuenta regresiva en modo voz. El reconocimiento depende del navegador y puede enviar audio al proveedor del navegador; no se guarda audio en Supabase. Si falla, vuelve a modo automático. No se modifica Supabase ni las claves de almacenamiento.
 
 V1.4.2: guía de voz alineada al borde inferior de las palabras, anticipación de 0–15 palabras (5 por defecto), predicción corta limitada a dos palabras mientras se detecta habla. El modo automático conserva su comportamiento.
+
+V1.5 CONTROL REMOTO
+Ejecutar remote.sql una sola vez en SQL Editor de Supabase. Subir los seis archivos web, no el SQL.
+En el receptor abrir guion > Control remoto > Generar código. En el mando, biblioteca > Control remoto > introducir código. Misma cuenta y ambos conectados. Códigos duran dos horas; desconectar al terminar. El receptor debe permanecer visible. El modo voz se inicia localmente por permisos de micrófono; puede pausarse a distancia. Cambiar bloque o línea pausa el modo voz; volver a iniciarlo localmente. La vista limpia remota puede no activar fullscreen nativo. Latencia depende de conexión y sondeo (cada 900 ms). El mando no envía audio ni texto del guion. No se modifican las tablas de biblioteca.

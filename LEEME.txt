@@ -1,0 +1,28 @@
+JUANDIPROMPTER 1.0
+
+PRUEBA EN WINDOWS
+1. Extrae todos los archivos del ZIP a una carpeta.
+2. Abre index.html con Chrome o Edge.
+3. Edita el guion de prueba o crea uno nuevo.
+4. Pulsa Abrir teleprompter. Prueba los ajustes y el modo espejo.
+
+PUBLICAR GRATIS EN GITHUB PAGES
+1. Crea una cuenta en https://github.com/ y un repositorio público llamado juandiprompter.
+2. Usa Add file > Upload files. Sube los archivos extraídos (no el ZIP), directamente a la raíz del repositorio.
+3. Confirma con Commit changes.
+4. En Settings > Pages, elige Deploy from a branch, main y /(root). Guarda.
+5. Cuando GitHub muestre la dirección publicada, ábrela en Safari desde el iPhone.
+6. Compartir > Añadir a pantalla de inicio; activa Abrir como app web si aparece.
+7. Abre la app conectada a internet al menos una vez y comprueba después el modo avión.
+
+CONTROLES
+Espacio o clic sobre el texto: iniciar/pausar.
+Rueda o gesto: mover el texto (pausa automática).
+Flechas arriba/abajo: velocidad.
+Flechas izquierda/derecha: bloque anterior/siguiente.
+Separa bloques por líneas vacías.
+
+NOTAS
+Los guiones se guardan localmente por navegador y dirección web. No hay sincronización automática. Exporta una copia JSON e impórtala en el otro dispositivo. No subas las copias de guiones al repositorio público.
+La apertura local permite probar el lector, pero la instalación y el modo sin conexión PWA requieren servirlo mediante HTTPS o localhost.
+No se ha comprobado todavía en un iPhone real. Las palabras por minuto son una estimación de desplazamiento, no seguimiento de voz. El control Bluetooth depende de la compatibilidad del dispositivo.

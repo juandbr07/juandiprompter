@@ -1,4 +1,4 @@
-JUANDIPROMPTER 1.4.1 — Smooth Scroll
+JUANDIPROMPTER 1.4.2 — Smooth Scroll
 Actualización: exporta copia de tus guiones, sube los seis archivos al mismo repositorio GitHub y abre con internet tras el despliegue. No requiere cambios SQL ni Supabase. En Ajustes > Suavidad de voz (0–100%, inicial 65%) puedes ajustar la respuesta. El movimiento se anima hasta las palabras reconocidas; no predice palabras futuras. Pausar cancela el movimiento pendiente. Reconocimiento beta sujeto a navegador, permisos y red.
 
 Actualización 1.4: confirmaciones visuales de guardado local, autenticación, sincronización y operaciones de biblioteca. No requiere ejecutar SQL ni cambiar la configuración de Supabase.
@@ -20,3 +20,5 @@ El SDK se carga por CDN con internet; el lector local continúa sin él. PDF req
 Validación: sintaxis JS y empaquetado comprobados; falta ejecutar SQL y probar autenticación y sincronización contra tu proyecto real en PC/iPhone. Conserva las copias exportadas.
 
 V1.4: modo voz beta, en Ajustes o botón Modo voz. Permite el micrófono; idioma es-CO por defecto. No utiliza cuenta regresiva en modo voz. El reconocimiento depende del navegador y puede enviar audio al proveedor del navegador; no se guarda audio en Supabase. Si falla, vuelve a modo automático. No se modifica Supabase ni las claves de almacenamiento.
+
+V1.4.2: guía de voz alineada al borde inferior de las palabras, anticipación de 0–15 palabras (5 por defecto), predicción corta limitada a dos palabras mientras se detecta habla. El modo automático conserva su comportamiento.

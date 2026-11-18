@@ -1,10 +1,10 @@
-JUANDIPROMPTER v1.6 — Navegación y productividad
+JUANDIPROMPTER v1.7 — Navegación y productividad
 
 ACTUALIZAR
 1. Exporta una copia de tus guiones en cada dispositivo.
 2. Sube los siete archivos de este ZIP a la raíz del mismo repositorio GitHub Pages.
 3. Confirma los cambios. Espera al despliegue correcto en Actions.
-4. Cierra y vuelve a abrir la aplicación con internet. Debe mostrar v1.6.
+4. Cierra y vuelve a abrir la aplicación con internet. Debe mostrar v1.7.
 No borres datos de Safari/Chrome. No es necesario ejecutar SQL: se conserva la tabla de biblioteca y la de control remoto de v1.5.1. El historial y formato se guardan como campos adicionales del JSON de cada guion; actualiza los dos dispositivos antes de editar con formato. Los límites de almacenamiento local y de Supabase siguen aplicando.
 
 NOVEDADES
@@ -16,3 +16,7 @@ Actualizaciones: consulta version.json; debe subirse junto con los demás archiv
 
 PRUEBAS
 Sintaxis JS y prueba aislada de interfaz Chromium con almacenamiento y sesión simulados; sin acceso real a servidor local por política del entorno. Verificar en dispositivos reales: sesión existente, sincronización y conflictos, recuperación de contraseña por correo, perfil, historial, modo voz, control remoto, importación y offline. No se ha publicado por el asistente.
+
+V1.7: ancho 15–100%, acceso rápido 25/50/100%, posición horizontal física, límite en píxeles (0 desactivado), bordes arrastrables opcionales. La altura se ajusta con la guía existente. Arrastrar un borde elimina el límite en píxeles. En pantalla limpia los bordes se ocultan hasta mover el puntero. Se intenta conservar la palabra de referencia al modificar la geometría. Ajustes separados por perfil, sin cambios SQL.
+
+REVISIÓN 1.7: scripts SQL originales revisados; RLS por auth.uid() en ambas tablas, sin acceso anon. No se auditó la configuración real del servidor. Prueba aislada de Chromium (sin nube): ancho, posición, límite y conservación de palabra. El entorno impide navegación real. Pendiente auditoría exhaustiva de seguridad y rendimiento, pruebas de voz, mando y Safari.

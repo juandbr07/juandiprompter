@@ -1,3 +1,5 @@
+Actualización 1.3.1: confirmaciones visuales de guardado local, autenticación, sincronización y operaciones de biblioteca. No requiere ejecutar SQL ni cambiar la configuración de Supabase.
+
 JUANDIPROMPTER 1.3 — Supabase
 
 1. Exporta una copia JSON de tus guiones en cada dispositivo antes de actualizar.

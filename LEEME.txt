@@ -1,3 +1,6 @@
+JUANDIPROMPTER 1.4.1 — Smooth Scroll
+Actualización: exporta copia de tus guiones, sube los seis archivos al mismo repositorio GitHub y abre con internet tras el despliegue. No requiere cambios SQL ni Supabase. En Ajustes > Suavidad de voz (0–100%, inicial 65%) puedes ajustar la respuesta. El movimiento se anima hasta las palabras reconocidas; no predice palabras futuras. Pausar cancela el movimiento pendiente. Reconocimiento beta sujeto a navegador, permisos y red.
+
 Actualización 1.4: confirmaciones visuales de guardado local, autenticación, sincronización y operaciones de biblioteca. No requiere ejecutar SQL ni cambiar la configuración de Supabase.
 
 JUANDIPROMPTER 1.3 — Supabase

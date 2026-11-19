@@ -1,4 +1,4 @@
-JUANDIPROMPTER 2.0 BETA 2 (versión técnica 2.0.1)
+JUANDIPROMPTER 2.0 FINAL (versión técnica 2.0.2)
 
 Exporta una copia de tus guiones y sube los siete archivos al mismo repositorio de GitHub Pages. No cambies Supabase. Se conservan las claves y rutas anteriores.
 
@@ -6,3 +6,5 @@ Menú de PC: botón de colapso, iconos y estado local persistente. Estado de nub
 Juandi Pace: Inicio o Ajustes > Calibrar mi velocidad. Pruebas de 70, 140, 280 palabras o texto propio. Las duraciones son orientativas. Manual: lee cada tramo y confírmalo. Voz: requiere permiso y navegador compatible; puede necesitar internet. No guarda audio ni transcripciones. La gráfica de voz es aproximada por grupos de reconocimiento. Historial local de hasta 30 pruebas. Recomendación: 97% del promedio, redondeado a 5 ppm, dentro del intervalo 40–320. Aplica al perfil elegido, sin cambiar los demás ajustes.
 
 Prueba en PC y iPhone; conserva la beta anterior como respaldo. Las fuentes externas tienen alternativa de sistema offline. No se necesita contratar otra API.
+
+Menú: Colapsar al final; en horizontal móvil usa barra lateral y en vertical conserva la barra inferior.
